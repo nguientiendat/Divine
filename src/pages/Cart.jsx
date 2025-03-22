@@ -85,10 +85,8 @@ const Cart = () => {
         }
     };
 
-    // Memoize handleQuantityChange để tránh việc tạo function mới mỗi lần render
     const handleQuantityChange = useCallback((productId, quantity) => {
         setProductQuantities(prev => {
-            // Chỉ cập nhật nếu quantity thực sự thay đổi
             if (prev[productId] === quantity) return prev;
             return {
                 ...prev,
