@@ -11,6 +11,8 @@ import Cart from "../pages/Cart";
 import PageAdmin from "../pages/PageAdmin";
 import AddMoney from "../pages/AddMoney";
 import DashBoard from "../pages/DashBoard";
+import LogOut from "../pages/LogOut";
+
 function App() {
   return (
   <Routes>
@@ -23,8 +25,7 @@ function App() {
       <Route path = "/pageadmin" element = {<PageAdmin />} />
       <Route path = "/napthemtien" element = {<AddMoney />} />
       <Route path = "/dashboard" element = {<DashBoard />} />
-
-
+      <Route path = "/logout" element = {<LogOut />} />
 
     </Route>
   </Routes>

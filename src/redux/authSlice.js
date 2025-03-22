@@ -23,6 +23,11 @@ const authSlice = createSlice ({
             isFetching:false,
             error:false,
             success:false
+        },
+        logout: {
+            isFetching: false,
+            error: false,
+            success: false
         }
     },
     reducers:{
@@ -82,6 +87,27 @@ const authSlice = createSlice ({
             state.deleteCartProduct.isFetchin=false;
             state.deleteCartProduct.errow = true;
             state.deleteCartProduct.success = false
+        },
+        logoutStart: (state) => {
+            state.logout.isFetching = true;
+        },
+        logoutSuccess: (state) => {
+            state.logout.isFetching = false;
+            state.logout.error = false;
+            state.logout.success = true;
+            state.login.isLoggedIn = false;
+            state.login.currentUser = null;
+        },
+        logoutFailed: (state) => {
+            state.logout.isFetching = false;
+            state.logout.error = true;
+            state.logout.success = false;
+        },
+        // Update account balance
+        updateAccountBalance: (state, action) => {
+            if (state.login.currentUser) {
+                state.login.currentUser.account_balance = action.payload;
+            }
         }
     }
 
@@ -96,6 +122,16 @@ export const {
     addProductSuccess,
     addProductFailed,
     addProductStart,
-    deleteProductStart,deleteProductSuccess,deleteProductFailed
-}  = authSlice.actions
+    deleteProductStart,
+    deleteProductSuccess,
+    deleteProductFailed,
+    logoutStart,
+    logoutSuccess,
+    logoutFailed,
+    updateAccountBalance
+}  = authSlice.actions;
+
+// Alias for compatibility with LogOut.jsx
+export const createLogoutSuccess = logoutSuccess;
+
 export default authSlice.reducer

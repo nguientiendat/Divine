@@ -1,5 +1,5 @@
 import axios from "axios"
-import {    deleteProductStart,deleteProductSuccess,deleteProductFailed,loginStart ,loginFailed, loginSuccess, registerStart, registerSuccess, registerFailed,addProductStart,addProductSuccess,addProductFailed } from "./authSlice";
+import {    deleteProductStart,deleteProductSuccess,deleteProductFailed,loginStart ,loginFailed, loginSuccess, registerStart, registerSuccess, registerFailed,addProductStart,addProductSuccess,addProductFailed,logoutStart,logoutSuccess,logoutFailed } from "./authSlice";
 
 export const loginUser = async (user, dispatch, navigate) => {
     dispatch(loginStart());
@@ -46,4 +46,25 @@ export const deleteCartProduct = async(data,dispatch)=>{
         }catch(err){
             dispatch(deleteProductFailed())
         }
+}
+
+export const logoutUser = async (dispatch, accessToken) => {
+    dispatch(logoutStart());
+    try {
+        // Call to logout API
+        await axios.post(
+            "http://localhost:8000/v1/auth/logout", 
+            {}, // Empty body
+            {
+                headers: {
+                    token: `Bearer ${accessToken}`
+                }
+            }
+        );
+        dispatch(logoutSuccess());
+        return true;
+    } catch (err) {
+        dispatch(logoutFailed());
+        throw err;
+    }
 }
