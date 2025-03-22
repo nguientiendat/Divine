@@ -1,0 +1,260 @@
+{
+    "categories": [
+        {
+            "id": 1000,
+            "name-categories": "Học tập",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Zoom Pro ~1 tháng",
+                    "price": 210000,
+                    "original_price": 350.000,
+                    "discount": 40,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/Thang/Zoom Pro 28d-58614.png?hash=1721286523"
+                },
+                {
+                    "id": 2,
+                    "name": "Turnitin 1 Tháng",
+                    "price": 249000,
+                    "original_price": 399.000,
+                    "discount": 38,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/Thang/Turnitin-1m-21162.png?hash=1722659289"
+                },
+                {
+                    "id": 3,
+                    "name": "Quizlet Plus 1 Năm",
+                    "price": 399000,
+                    "original_price": 999000,
+                    "discount": 60,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Quizlet Plus-Nangcap-1y-28668.png?hash=1718877951"
+                },
+                {
+                    "id": 4,
+                    "name": "Turnitin 1 Tháng",
+                    "price": 249000,
+                    "original_price": 399000,
+                    "discount": 38,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Hello Chinese Premium-taikhoan-10119.png?hash=1717204503"
+                },
+                {
+                    "id": 5,
+                    "name": "Turnitin 1 Tháng",
+                    "price": 249000,
+                    "original_price": 399000,
+                    "discount": 38,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Duolingo-gh-1y-17122.png?hash=1730437075"
+                },
+                {
+                    "id": 6,
+                    "name": "Turnitin 1 Tháng",
+                    "price": 249000,
+                    "original_price": 399000,
+                    "discount": 38,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/JetBrains-1y-89777.png?hash=1730437268"
+                },
+                {
+                    "id": 7,
+                    "name": "Turnitin 1 Tháng",
+                    "price": 249000,
+                    "original_price": 399000,
+                    "discount": 38,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Grammarly Premium-1m-1pc-55101.png?hash=1716176302"
+                },
+                {
+                    "id": 8,
+                    "name": "Turnitin 1 Tháng",
+                    "price": 249000,
+                    "original_price": 399000,
+                    "discount": 38,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Blinkist-70788.png?hash=1730437535"
+                }
+            ]
+        },
+        {
+            "id": 2000,
+            "name-categories": "Giải trí",
+            "products": [
+                {
+                    "id": 9,
+                    "name": "YouTube Premium 6 tháng",
+                    "price": 179000,
+                    "original_price": 299000,
+                    "discount": 40,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Youtube/YouTube Premium Music-6thang-48726.png?hash=1715587324"
+                },
+                {
+                    "id": 10,
+                    "name": "Netflix Premium 1 ngày",
+                    "price": 19000,
+                    "original_price": 125000,
+                    "discount": 85,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Netflix/NETFLIX-1ngay (1)-49447.png?hash=1715588562"
+                },
+                {
+                    "id": 11,
+                    "name": "Netflix Premium 1 tuần",
+                    "price": 59000,
+                    "original_price": 99000,
+                    "discount": 40,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Netflix/NETFLIX-1tuan (1)-76597.png?hash=1715588591"
+                },
+                {
+                    "id": 12,
+                    "name": "YouTube Premium + YouTube Music 1 năm - Gia hạn chính chủ",
+                    "price": 59000,
+                    "original_price": 99000,
+                    "discount": 40,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Youtube/YouTube Premium Music-1nam-65910.png?hash=1715587226"
+                },
+                {
+                    "id": 13,
+                    "name": "YouTube Premium 6 tháng",
+                    "price": 179000,
+                    "original_price": 299000,
+                    "discount": 40,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Youtube/YouTube Premium Music-6thang-48726.png?hash=1715587324"
+                },
+                {
+                    "id": 14,
+                    "name": "Netflix Premium 1 ngày",
+                    "price": 19000,
+                    "original_price": 125000,
+                    "discount": 85,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Netflix/NETFLIX-1ngay (1)-49447.png?hash=1715588562"
+                },
+                {
+                    "id": 15,
+                    "name": "Netflix Premium 1 tuần",
+                    "price": 59000,
+                    "original_price": 99000,
+                    "discount": 40,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Netflix/NETFLIX-1tuan (1)-76597.png?hash=1715588591"
+                },
+                {
+                    "id": 16,
+                    "name": "YouTube Premium + YouTube Music 1 năm - Gia hạn chính chủ",
+                    "price": 59000,
+                    "original_price": 99000,
+                    "discount": 40,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Youtube/YouTube Premium Music-1nam-65910.png?hash=1715587226"
+                }
+            ]
+        },
+        {
+            "id": 3000,
+            "name-categories": "Game trên Steam",
+            "products": [
+                {
+                    "id": 17,
+                    "name": "Random Code Steam",
+                    "price": 9000,
+                    "original_price": 20000,
+                    "discount": 55,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh/Banner/Random Code Steam.png?hash=1623754090"
+                },
+                {
+                    "id": 18,
+                    "name": "Elden Ring (CD Key Steam)",
+                    "price": 790000,
+                    "original_price": 800000,
+                    "discount": 1,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Divine-Shop-Elden-Ring-82335.jpg?hash=1658742026"
+                },
+                {
+                    "id": 19,
+                    "name": "Black Myth: Wukong - Thuê game (1 ngày)",
+                    "price": 25000,
+                    "original_price": 1299000,
+                    "discount": 98,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/Thang/black myth wukong-1d-22302.png?hash=1724216887"
+                },
+                {
+                    "id": 20,
+                    "name": "Black Myth: Wukong - Thuê game (1 tuần)",
+                    "price": 95000,
+                    "original_price": 1299000,
+                    "discount": 93,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/Thang/black myth wukong-1w-19640.png?hash=1724216912"
+                },
+                {
+                    "id": 21,
+                    "name": "Black Myth: Wukong - Tài khoản Steam Mới",
+                    "price": 1090000,
+                    "original_price": 1299000,
+                    "discount": 16,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/Thang/black myth wukong-13641.jpg?hash=1724216852"
+                },
+                {
+                    "id": 22,
+                    "name": "Tài khoản Grand Theft Auto V: Premium Edition (GTA 5)",
+                    "price": 250000,
+                    "original_price": 459000,
+                    "discount": 46,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Divine-Shop-GTA-V19-92008.jpg?hash=1658822638"
+                },
+                {
+                    "id": 23,
+                    "name": "Random Code Steam Legendary",
+                    "price": 60000,
+                    "original_price": 150000,
+                    "discount": 60,
+                    "status": 1,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Random Code Steam Legendary-78055.png?hash=1650017306"
+                },
+                {
+                    "id": 24,
+                    "name": "Devil May Cry 5 - 1000000 Red Orbs",
+                    "price": 276000,
+                    "original_price": null,
+                    "discount": 0,
+                    "status": 1,
+                    "src": "https://steamcdn-a.akamaihd.net/steam/apps/941973/header.jpg"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name-categories": "slide-show",
+            "products": [
+                {
+                    "id": 26,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Banner/BannerSanSale%20t2%20hang%20tuan-40177.png?hash=1735521295"
+                },
+                {
+                    "id": 27,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Banner/banner Google One (3)-10567.png?hash=1658937523"
+                },
+                {
+                    "id": 28,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Banner/Netflix%20banner%2025k-96766.png?hash=1734103546"
+                },
+                {
+                    "id": 29,
+                    "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP-New/Thang/ToiUuCongViec-89008.png?hash=1722222194"
+                }
+            ]
+        }
+    ]
+}

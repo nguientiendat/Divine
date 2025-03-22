@@ -1,0 +1,86 @@
+body {
+    background-color: #F3F4F6
+}
+
+.ctm-img {
+    width: 95%;
+    /* height: 45%; */
+    /* margin: 5%; */
+}
+
+
+.hc {
+    margin-bottom: 20px;
+
+}
+
+.item:hover ct-link {
+    color: red
+}
+
+.ct-p {
+    font-size: 1.5vh
+}
+
+.line {
+    font-weight: 500;
+}
+
+.line:hover {
+    text-decoration: underline
+}
+
+.ct-c {
+    color: #9ca3af;
+    text-decoration: line-through;
+}
+
+.sale {
+    background-color: red;
+    color: white;
+    /* font-size: 1.2vh */
+    font-size: 12px;
+}
+
+.ct-img {
+    max-width: 306px;
+}
+
+.ct-img2 {
+    max-width: 406px;
+}
+
+.bg-white {
+    background-color: #ffff;
+}
+
+.b {
+    padding-left: 5%;
+    padding-right: 5%
+}
+
+.ct-color-green {
+    color: rgb(139, 207, 37)
+}
+
+.t-blue {
+    color: #2579F2
+}
+
+.ct-input {
+    min-width: 200px;
+}
+
+.lw {
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
+
+.qr {
+    display: none;
+}
+
+.mg {
+    margin-bottom: 5px;
+}

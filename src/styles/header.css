@@ -1,0 +1,95 @@
+.custom-ctn {
+
+    width: 80%;
+    margin: 0px;
+    /* padding: 10px; */
+
+}
+
+.tw {
+    color: white;
+    text-decoration: none;
+}
+
+.bi {
+    padding: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-header {
+    width: 100%;
+
+}
+
+.set-bg {
+    background-color: #0A59CC;
+}
+
+.fheader {
+    /* justify-content: space-between !important; */
+    align-items: center;
+}
+
+.set-bg-2 {
+    background-color: #2579F2;
+    padding: 10px;
+    border: none
+}
+
+.set-bg-2:hover {
+    background-color: #2579F2;
+
+}
+
+.ctm-btn {
+    background-color: #0A59CC;
+}
+
+.ctm-btn-2 {
+    border: white solid 1px;
+    border-radius: 46%;
+    margin-right: 5px;
+}
+
+.ctm-btn-3 {
+    border: white solid 1px;
+    margin-right: 5px;
+}
+
+.no-hover:hover {
+    background-color: #3086ff;
+    /* Giữ nguyên màu nền */
+    border: white solid 1px;
+
+}
+
+.tb {
+    color: black;
+}
+
+.set-bg-3 {
+    background-color: white
+}
+
+.h-ct {
+    height: 100%
+}
+
+.ct {
+    width: 70%
+}
+
+.ct-w {
+    background-color: #ffff;
+}
+
+.avatar {
+    width: 20%
+}
+
+.search {
+    width: 25%
+}
