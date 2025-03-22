@@ -281,14 +281,6 @@
   ],
   "cart": [
     {
-      "id": "4",
-      "name": "Turnitin 1 Tháng",
-      "price": 249000,
-      "original_price": 399000,
-      "discount": 38,
-      "src": "https://cdn.divineshop.vn/image/catalog/Anh-SP/Khác/Hello Chinese Premium-taikhoan-10119.png?hash=1717204503"
-    },
-    {
       "id": "3",
       "name": "Quizlet Plus 1 Năm",
       "price": 399000,
@@ -299,7 +291,7 @@
   ],
   "sold": [
     {
-      "id": 1,
+      "id": "1",
       "product_id": 101,
       "name": "Zoom Pro ~1 tháng",
       "price": 210000,
@@ -307,7 +299,7 @@
       "sold_at": "2025-03-17T08:00:00Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "product_id": 102,
       "name": "Turnitin 1 Tháng",
       "price": 249000,
@@ -315,7 +307,7 @@
       "sold_at": "2025-03-17T08:30:00Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "product_id": 101,
       "name": "Zoom Pro ~1 tháng",
       "price": 210000,
@@ -323,12 +315,28 @@
       "sold_at": "2025-03-17T09:00:00Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "product_id": 103,
       "name": "Quizlet Plus 1 Năm",
       "price": 399000,
       "quantity": 3,
       "sold_at": "2025-03-17T10:00:00Z"
+    },
+    {
+      "id": 1742627687870,
+      "product_id": "4",
+      "name": "Turnitin 1 Tháng",
+      "price": 249000,
+      "quantity": 1,
+      "sold_at": "2025-03-22T07:14:47.870Z"
+    },
+    {
+      "id": 1742627687871,
+      "product_id": "3",
+      "name": "Quizlet Plus 1 Năm",
+      "price": 399000,
+      "quantity": 1,
+      "sold_at": "2025-03-22T07:14:47.870Z"
     }
   ]
 }
